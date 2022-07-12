@@ -7,6 +7,9 @@
   <title>Document</title>
 </head>
 <body>
-  <h1>Hello Mark & Joe...!</h1>
+  <!-- using the id key in the h1 tag -->
+  <h1 id="key">Hello Mark & Joe...!</h1>
+  <button type="button" onclick="document.getElementById('key').innerHTML = 'Northerner coders!'">Press Me!</button>
+  <button type="button" onclick="document.getElementById('key').innerHTML = 'Hello Mark & Joe...!'">Reset Me!</button>
 </body>
 </html>
